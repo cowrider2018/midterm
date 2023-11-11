@@ -64,6 +64,12 @@ main {
     width: 45px;
     border-radius: 20%;
 }
+.me{
+    margin: 2px;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
 
 .flex{
     margin: 0px;
