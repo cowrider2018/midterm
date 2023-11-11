@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 body {
@@ -57,7 +58,6 @@ main {
     float: left;
     width: 72%;
     text-align: left;
-    font-weight: bold;
 }
 .connection{
     margin: 2px;
@@ -117,7 +117,8 @@ main {
     height: calc(var(--width) - var(--bar-width));
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 26px;
+    font-weight: bolder;
     background-color: white;
   }
 
