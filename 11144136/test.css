@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fce9da;
+    margin: 0px;
+}
+
+header {
+    background-color: #ffd0a6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+nav {
+    background-color: #ffcec7;
+    font-family: arial;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+nav a {
+    padding: 14px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #e098ae;
+    color: white;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.aboutme {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
+    float: left;
+    width: 72%;
+    text-align: left;
+    font-weight: bold;
+}
+.connection{
+    margin: 2px;
+    width: 45px;
+    border-radius: 20%;
+}
+
+.flex{
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+}
+.habit{
+    margin: 0px;
+    width: 250px;
+    height: 150px;
+}
+.habit_composition{
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.skills{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
+    float: left;
+    width: 72%;
+    height: 320px;
+    text-align: left;
+}
+.progress_bar{
+    --width: 150px;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 0px 30px;
+    background-image: conic-gradient(#ffcec7 var(--deg), #fff2f0 var(--deg));
+    position: relative;
+}
+.progress_bar_inside{
+    --bar-width: 50px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: white;
+  }
+
+.experience{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
+    float: left;
+    width: 72%;
+    text-align: left;
+}
+.experience_img{
+    margin: 0px;
+    width: 30%;
+    height: 30%;
+}
+.experience_img_2{
+    margin: 0px;
+    width: 30%;
+    height: 30%;
+}
+.experience_composition{
+    margin: auto 50px;
+    width: 560px;
+}
+
+
+footer {
+    background-color: #e098ae;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
