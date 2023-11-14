@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
     font-family: 'Noto Sans TC', sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 body {
     background-color: #fce9da;
@@ -16,16 +18,21 @@ header {
     margin: 0px;
 }
 nav {
+    padding: 0px 50px;
     background-color: #ffcec7;
-    font-family: arial;
-    text-align: center;
+    text-align: right;
     position: sticky;
     top: 0;
     z-index:1;
 }
 nav a {
-    padding: 14px;
+    color: #e098ae;
+    padding: 10px;
     display: inline-block;
+    text-align: center;
+    width: 100px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
 }
 nav a:hover {
     background-color: #e098ae;
@@ -39,37 +46,37 @@ main {
 
 
 .card {
-    background-color: white;
-    padding: 20px;
-    margin: 20px 10px;
-    border-radius: 15px;
-    background-image: url(image/card_img.jpg);
-    background-size: cover;
-    float: right;
-    width: 25%;
-    text-align: center;
-}
-.aboutme {
-    background-color: white;
     padding: 20px;
     margin: 20px 10px;
     border-radius: 15px;
     background-size: cover;
     float: left;
+    width: 25%;
+    height: 540px;
+    text-align: center;
+}
+.aboutme {
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-size: cover;
+    float: right;
     width: 72%;
+    height: 540px;
     text-align: left;
+}
+.me{
+    margin: 2px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
 }
 .connection{
     margin: 2px;
     width: 45px;
     border-radius: 20%;
 }
-.me{
-    margin: 2px;
-    width: 70%;
-    height: 70%;
-    border-radius: 50%;
-}
+
 
 .flex{
     margin: 0px;
@@ -91,13 +98,13 @@ main {
 
 
 .skills{
-    background-color: white;
+    background-color: #fff4ec;
     padding: 20px;
     margin: 20px 10px;
     border-radius: 15px;
     background-size: cover;
     float: left;
-    width: 72%;
+    width: 100%;
     height: 320px;
     text-align: left;
 }
@@ -108,7 +115,7 @@ main {
     height: var(--width);
     border-radius: 50%;
     margin: 0px 30px;
-    background-image: conic-gradient(#ffcec7 var(--deg), #fff2f0 var(--deg));
+    background-image: conic-gradient(#ffcec7 var(--deg), #fff4ec var(--deg));
     position: relative;
 }
 .progress_bar_inside{
@@ -125,17 +132,18 @@ main {
     justify-content: center;
     font-size: 26px;
     font-weight: bolder;
-    background-color: white;
+    color: #ffcec7;
+    background-color: #fff4ec;
   }
 
 .experience{
-    background-color: white;
+    background-color: #fff4ec;
     padding: 20px;
     margin: 20px 10px;
     border-radius: 15px;
     background-size: cover;
     float: left;
-    width: 72%;
+    width: 100%;
     text-align: left;
 }
 .experience_img{
